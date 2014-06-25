@@ -386,7 +386,7 @@ and open the template in the editor.
                 <ul id='navigationmenu'>    
                     <li><a href="index.php">HOME</a></li>
                     <li ><a href="plans.php">PLANS</a></li>
-                    <li><a href="#contact">EASYPAY</a></li>
+                    <li><a href="easy-pay.php">EASYPAY</a></li>
                     <li  class='nav-selected'><a href="contact.php">CONTACT</a></li>                
                 </ul> 
             <div id='logindiv'>

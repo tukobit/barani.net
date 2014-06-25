@@ -545,7 +545,7 @@ left: 1px;
              <ul id='navigationmenu'>    
                     <li><a href="index.php">HOME</a></li>
                     <li class='nav-selected' ><a href="#plans">PLANS</a></li>
-                    <li><a href="#contact">EASYPAY</a></li>
+                    <li><a href="easy-pay.php">EASYPAY</a></li>
                     <li><a href="contact.php">CONTACT</a></li>                
                 </ul> 
             <div id='logindiv'>

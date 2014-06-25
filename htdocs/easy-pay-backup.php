@@ -506,7 +506,7 @@
                     font-size: 18px;
                 }
         </style>    
-        
+     <link rel="stylesheet" href="css/bootstrap.css" />   
 	<!-- skin stylesheets -->
 	<link rel="stylesheet" href="js/pe.kenburns/themes/neutral_light/skin.min.css" />
 	
@@ -535,202 +535,113 @@
 		.peKenBurns .peKb_controlsInner .peKb_holder{
 			margin: 0px;
     	}                
-	</style>
-	
-	<!-- activate plugin -->
-	<script>
-		jQuery(function($){
-			$(".peKenBurns").peKenburnsSlider()
-		})
-	</script>       
-        
-    </head>
+	</style>    </head>
     <body>
-        
-        <div id="titlebg">
+      <div id="titlebg">
             <div id="titlecontent">
                 <a href='#'>
                     <img id='logoback' src='./assets/logoback.png' alt=''>
                     <img id='logofront' src='./assets/logofront.png' alt=''>
                 </a>
 
-            <ul id='navigationmenu'>    
-                <li class='nav-selected'><a href="#">HOME</a></li>
-                <li><a href="plans.php">PLANS</a></li>
-                <li><a href="easy-pay.php">EASYPAY</a></li>
-                <li><a href="contact.php">CONTACT</a></li>                
-            </ul> 
+             <ul id='navigationmenu'>    
+                    <li><a href="index.php">HOME</a></li>
+                    <li class='nav-selected' ><a href="#plans">PLANS</a></li>
+                    <li><a href="easy-pay.php">EASYPAY</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>                
+                </ul> 
             <div id='logindiv'>
-                <ul id='login'><li><a href='#'>Login</a></li><li>|</li><li><a href='#'>Sign Up</a></li></ul>
+
             </div>                
             </div>
         </div>
         <div id='titleborder'>
             <img id='flash' src='./assets/flash.png' alt=''>
-        </div>   
-        
-        <div id='maincontent'>
-            <div id='smokebg'>
-                <div id='slider'>
-    
-    	<div class="peKenBurns" data-logo="disabled">
-			<div class="peKb_active" data-delay="5" data-thumb="img/thumbs/kb_01.jpg">
-				<a class="video hd autoplay loop" href="http://vimeo.com/7809605"><img src="img/kb_01.jpg" alt="Banner Image 1" /></a>
-				<h1>FUNKY IMAGE CAPTION TRANSITION 01</h1>
-			</div>
-			
-			<div data-delay="5" data-thumb="img/thumbs/kb_02.jpg">
-				<a class="video hd autoplay loop skiptonext" href="http://www.youtube.com/watch?v=lZOnrN4x0Zk"><img src="img/blank.png" data-src="img/kb_02.jpg" alt="Banner Image 1" /></a>
-				<h1>SLIGHTLY LONGER IMAGE CAPTION POSITION BOTTOM &amp; CENTERED</h1>
-			</div>
-			
-			<div data-delay="5" data-thumb="img/thumbs/kb_03.jpg">
-				<img src="img/blank.png" data-src="img/kb_03.jpg" alt="Banner Image 1" />
-				<h1>FUNKY IMAGE CAPTION TRANSITION 03</h1>
-			</div>
-			
-			<div data-delay="5" data-thumb="img/thumbs/kb_04.jpg">
-				<img src="img/blank.png" data-src="img/kb_04.jpg" alt="Banner Image 1" />
-				<h1>FUNKY IMAGE CAPTION TRANSITION 04</h1>
-			</div>		    
-		</div>                
-                </div>
-            </div>  
-            
-            <div id='content'>
-                
-            <div class="banner1">
-                    <div id="undispqual"></div>
-                    <div id="signalicon"></div>
-            </div>                
-                
-                <div class='twopanel'>
-                    <div class='minipanel'>
-                        <div class='paneltitle'>FEATURES</div>
-                        <div class="panelcontent">
-                            
-                            <span>Barani offers the best in the class wirelss internet service.  This is just a sample text.
-                            What we offer is a unstoppable internet connection with the ultra sophisticated networking technology. So while you roam in our district next time, we take care of your internet connectivity.
-                            <br/><br/>
-                            <em>And we do this everytime with highly technical support staff and comfortable monitoring solutions right on spot. So we have this infrastructure that stands in rain, calamities and other interruptions.</em>
-                             <a href='#'>more</a></span><br/>
-                            <br/>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class='largepanel'>
-                        
-                        <div class='paneltitle'>NETWORK COVERAGE</div>
-                        <div class='panelcontent'>
-                            <img id="map" src="assets/tnelveli.png" alt="" >
-                        </div>
-                        
-                    </div>
-                </div> 
-                
-                <div class="banner2">
-                     <div id="experience"></div> 
-                     <div id="exp"></div>
-                </div>
-                
-                
-                <div class='twopanel'>
-                    <div class='minipanel'>
-                        <div class='paneltitle'>QUALITY</div>
-                        <div class="panelcontent">
-                            
-                            <span>Now, Barani offers a sleek unmatching download speed. Barani is set for relentless users. With the top notch technology and well placed technical staff, we provide the service at a quality no one else thinks about.
-                            <br/><br/>
-                         
-                           </span>
-                              <span class="mbps"></span><br/>
-                            <br/>
-                            
-                        </div>
-                    </div>
-                    
-                    <div class='largepanel'>
-                        
-                        <div class='paneltitle'>LATEST UPDATES</div>
-                        <div class='panelcontent'>
-                           <ul>
-                           <li>District collector launched the new Payment kiosks at Tirunagar</li>
-                           <li>Barani initiates go green agenda Paperless bills
-                               with ebill facility right into your email box.</li>
-                           <li>Barani sponsors bicycle rally for this   so and so movement</li>
-                           <li>Barani sponsors bicycle rally for this so and so movement</li>
-                           </ul>
-                        </div>
-                        
-                    </div>
-                </div>                 
+        </div> 
+        <!--main content starts-->
+       <div id="maincontent">
+            <div id="smokebg"></div>
+            <div id="content">
+            	<form class="form-horizontal" method="post" action="./charging.php">
+    <fieldset>
+        <div class="well span10">
+            <legend>Checkout Details</legend>
 
-                
+            <div class="control-group">
+                <label class="control-label">Buyer Email Address</label>
+
+                <div class="controls">
+                    <input id="buyer_email_address" name="buyer_email_address" type="text" value="user@domain.com"
+                           class="input-xlarge" required="">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Transaction Amount (in Paisa)</label>
+
+                <div class="controls">
+                    <input id="transaction_amount" name="transaction_amount" type="text" value="100"
+                           class="input-xlarge" required="">
+
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Payment Method</label>
+
+                <div class="controls">
+                    <select id="payment_method" name="payment_method" class="input-xlarge">
+                        <option>PAYZIPPY</option>
+                        <option>CREDIT</option>
+                        <option>DEBIT</option>
+                        <option>NET</option>
+                        <option>EMI</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="control-group">
+                <label class="control-label">Bank Name</label>
+
+                <div class="controls">
+                    <input id="bank_name" name="bank_name" type="text" value="HDFC" class="input-xlarge">
+
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Merchant Transaction Id</label>
+
+                <div class="controls">
+                    <input id="merchant_transaction_id" name="merchant_transaction_id" type="text"
+                           value="<?php echo $order_id; ?>" class="input-xlarge" required="">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">UI Mode</label>
+
+                <div class="controls">
+                    <select id="ui_mode" name="ui_mode" class="input-xlarge">
+                        <option>IFRAME</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <div class="controls">
+                    <input type="submit" id="button" class="btn btn-info" value="Pay with PayZippy">
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</form>
+            </div>
             <div class="spacer">
-                <!--<span>What we offer</span>-->
-            </div>     
-                <div class='twopanel'>
-                    <!--1st mini panel starts-->
-                    <div class='minipanel'>
-                        <div class='minipaneltitle'>SPEED <img class='glyph' src='./assets/speedicon.png' alt=''></div>
-                        <div class="minipanelcontent">
-                            
-                            <span>Our 3G and 4G connectivity makes your
-                            browsing experience like a feather in flight. With a speed reaching a maximum of 
-                            14.4Mbps, you are going to experience awesomeness</span><br/>
-                            <br/><p>
-                            
-                        </div>
-                    </div><!--1st mini panel end-->
-                    
-                    <!--2nd mini panel starts-->
-                   <div class='minipanel'>
-                       <div class='minipaneltitle'>COVERAGE <img class='glyph' src='assets/coverageicon.png'></div>
-                        <div class="minipanelcontent">
-                            
-                            <span>The first thing we did was to cover the district of tirunelveli with our
-                                Barani wireless service. Well placed equips and experienced staff makes your 
-                                life easier, better and cheaper.</span><br/>
-                            <br/>
-                            
-                        </div>
-                    </div><!---2nd mini panel end-->
-                    
-                    <!--3rd mini panel starts-->
-                   <div class='minipanel'>
-                       <div class='minipaneltitle'>EASY PAYMENTS<img class='glyph' src="./assets/rupeeicon.png"></div>
-                        <div class="minipanelcontent">
-                            
-                            <span>Did we mention cheaper, yes we offer our service at competing prices. Also 
-                                with online payment options. Stay at your home. Feel the  lifestyle of paying 
-                                easy from your browser itself.</span><br/>
-                            <br/>
-                            
-                        </div>
-                    </div><!--3rd mini panel ends-->
-
-            </div>
-            
-        </div>
-            
-          <!--Gratitude bar-->
-            <div id="gratitudebar">
-                <img id='leftarrow' src='assets/leftarrow.png' alt=''>
-                    Rajkumar, manager jayavilas - Barani had transformed our business.
-                <img id='rightarrow' src='assets/rightarrow.png' alt=''>
-            </div>
-            </div>
-        
-        <!--policy panel-->
-        <div id="policypanel">
-            <a href='#'>Policy</a> | <a href='#'>Terms of use</a>
-        </div>
-        
+            </div>  
         <!--footer panel-->
         <div id="footer">
             
         </div>
- 
     </body>
-</html>
+</script>>
